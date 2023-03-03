@@ -3,7 +3,7 @@ import data from "./data"
 
 
 const TabsApp = () => {
-    var idx = -1;   // some random variable to use for my key, quickfix
+    var idx = -1;   // some random variable to use for my key, as quickfix
     const defaultPerson = {...data[0], klass:'job-btn active-btn'};
     const [person, setPerson] = useState(defaultPerson);
 
