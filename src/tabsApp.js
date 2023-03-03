@@ -21,8 +21,7 @@ const TabsApp = () => {
             </div>
             <div className="jobs-center">
                 <div className="btn-container">
-                    {/* added a className of active-btn when clicked */
-                    console.log(person)}
+                    {/* added a className of active-btn when clicked */}
                     {data.map((individual)=> {
                         if(individual.id === person.id){individual=person}
                         return <button key={individual.id} className={individual.klass} onClick={()=>{handleClick(individual.id)}}>

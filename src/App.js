@@ -1,4 +1,4 @@
-import Setup from './toursApp';
+import Setup from './tabsApp';
 
 function App() {
   return (
