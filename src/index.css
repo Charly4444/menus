@@ -307,51 +307,89 @@ p {
   margin-top: 1rem;
 }
 
-.product button {
-  margin-bottom: 1rem;
-  background: var(--clr-primary-5);
-  border-radius: var(--radius);
-  border-color: transparent;
-  color: var(--clr-white);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
-  cursor: pointer;
-}
-.content {
-  display: grid;
+.section {
   width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
 }
-.tours {
+.title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.underline {
+  width: 5rem;
+  height: .25rem;
+  margin-bottom: 1.25rem;
+  background: #2caeba;
+  margin-left: auto;
+  margin-right: auto;
+}
+.jobs-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-items: top;
-  height: fit-content;
+  grid-template-columns: 200px 1fr;
+  column-gap: 4rem;
 }
-
-.single-tour {
-  background-color: #ccc;
-  padding: 0 50px 50px 50px;
-  margin: 10px;
-  position: relative;width: auto;
+.btn-container {
+  display: flex;
+  justify-content: center;  
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-
-.tour-info {
-  padding: 20px;
-  height: 30%;
-  overflow: hidden;
+.active-btn, .job-btn:hover {
+  color: #2caeba;
+  box-shadow: 0 2px #2caeba;
 }
-.more-tour {
-  height: auto;
+.job-btn {
+  background: transparent;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: .1rem;
+  margin: 0 .5rem;
+  margin-bottom: 14px;
+  transition: all .3s linear;
+  cursor: pointer;
+  outline-color: #e0fcff;
 }
-.btn{
-  width: 90%;
+.job-info {
+  text-align: left;
 }
-.tour-price {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  font-weight: bold;
-  font-size: 25px;
-  /* background-color: darkgray; */
+.job-info h3 {
+  font-weight: 400;
+}
+.job-info h4 {
+  text-transform: uppercase;
+  color: #617d98;
+  background: #dae2ec;
+  display: inline-block;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+.job-date {
+  letter-spacing: .1rem;
+}
+.job-desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 2rem;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.job-desc p {
+  margin-bottom: 0;
+  color: #324d67;
+}
+section .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 2px solid transparent;
+  width: 12rem;
+  text-align: center;
+  margin: 3rem auto 0;
 }
