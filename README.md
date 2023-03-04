@@ -1,4 +1,6 @@
-# accordion app
+# Learning React with a Menu App
+## This project was started with npx create-react-app
+# menus app
 
-## multiple state changes are shown on this single page app
-### accordion helpful to toggle between showing large content and small content at times
+### display menu items
+### select and display items

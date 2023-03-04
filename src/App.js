@@ -1,4 +1,4 @@
-import Setup from './accordionApp';
+import Setup from './menusApp';
 
 function App() {
   return (
