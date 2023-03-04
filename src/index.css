@@ -330,6 +330,7 @@ p {
   display: grid;
   gap: 3rem 2rem;
   justify-items: center;
+  margin-top: 1rem;
 }
 .menu-item {
   display: grid;
