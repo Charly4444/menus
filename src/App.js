@@ -1,4 +1,4 @@
-import Setup from './tabsApp';
+import Setup from './accordionApp';
 
 function App() {
   return (
